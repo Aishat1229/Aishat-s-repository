@@ -1,0 +1,263 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content{
+    display: none;
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px 1rem 1rem;
+    z-index: 1;
+    border-radius: 0rem 3rem 0rem 3rem;
+    border: 10rem;
+    border-color: white;
+    background: linear-gradient(to right, lightgreen, limegreen, lime);
+    border: 3px solid white;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content li:hover{
+    color: black;
+}
+
+.dropdown:hover{
+    color: rgb(15, 211, 15);
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links .link{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+
+.dropdown-second{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content-second{
+    display: none;
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px 1rem 1rem;
+    z-index: 1;
+    border-radius: 0rem 3rem 0rem 3rem;
+    border: 10rem;
+    border-color: white;
+    background: linear-gradient(to right, lightgreen, limegreen, lime);
+    border: 3px solid white;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content-second li:hover{
+    color: black;
+}
+
+.dropdown-second:hover{
+    color: rgb(15, 211, 15);
+}
+
+
+.dropdown-second:hover .dropdown-content-second{
+    display: block;
+}
+
+
+.dropdown-third{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content-third{
+    display: none;
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px 1rem 1rem;
+    z-index: 1;
+    border-radius: 0rem 3rem 0rem 3rem;
+    border: 10rem;
+    border-color: white;
+    background: linear-gradient(to right, lightgreen, limegreen, lime);
+    border: 3px solid white;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-content-third li:hover{
+    color: black;
+}
+
+.dropdown-third:hover{
+    color: rgb(15, 211, 15);
+}
+
+
+.dropdown-third:hover .dropdown-content-third{
+    display: block;
+}
+
+.dropdown-fourth{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content-fourth{
+    display: none;
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px 1rem 1rem;
+    z-index: 1;
+    border-radius: 0rem 3rem 0rem 3rem;
+    border: 10rem;
+    border-color: white;
+    background: linear-gradient(to right, lightgreen, limegreen, lime);
+    border: 3px solid white;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content-fourth li:hover{
+    color: black;
+}
+
+
+.dropdown-fourth:hover{
+    color: rgb(15, 211, 15);
+}
+
+.dropdown-fourth:hover .dropdown-content-fourth{
+    display: block;
+}
+
+
+.dropdown-fifth{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.dropdown-content-fifth{
+    display: none;
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px 1rem 1rem;
+    z-index: 1;
+    border-radius: 0rem 3rem 0rem 3rem;
+    border: 10rem;
+    border-color: white;
+    background: linear-gradient(to right, lightgreen, limegreen, lime);
+    border: 3px solid white;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-content-fifth li:hover{
+    color: black;
+}
+
+.dropdown-fifth:hover{
+    color: rgb(15, 211, 15);
+}
+
+
+.dropdown-fifth:hover .dropdown-content-fifth{
+    display: block;
+}
+
+
+.nav-links{
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.button button{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    background:linear-gradient(to right, lightgreen, limegreen, lime);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:2rem ;
+    width:10rem;
+    border-radius: 20rem;
+    border: none;
+}
+
+.button-content{
+    display: none;
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px 1rem 1rem;
+    z-index: 1;
+    border-radius: 0rem 3rem 0rem 3rem;
+    border: 10rem;
+    border-color: white;
+    background: linear-gradient(to right, lightgreen, limegreen, lime);
+    border: 3px solid white;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.button-content li:hover{
+    color: black;
+}
+
+
+.button button:hover .button-content{
+    display: block;
+}
+
+
+
+

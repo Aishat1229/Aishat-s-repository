@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: 50%;
+    animation: change 2s infinite alternate;
+}
+button{
+    width: 30px;
+    background-color: blue;
+    transition: width 0.3s ease-in-out;
+    border-radius: 30%;
+}
+
+button:hover{
+    width: 70px;
+    background-color: brown;
+    border-radius: 20%;
+}
+
+@keyframes change {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color:yellow;
+    }
+}
